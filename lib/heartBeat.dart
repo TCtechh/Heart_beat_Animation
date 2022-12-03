@@ -32,6 +32,7 @@ class _HeartBeatState extends State<HeartBeat> {
                   builder: (context,animatorState,child)=>Icon(
                     Icons.favorite,size: animatorState.value*5,
                     color: Color(0xffff5757),
+
                   ),
                 ),
               ),
